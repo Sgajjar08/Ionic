@@ -8,12 +8,33 @@
 
 <ion-content padding>
 
-    <ion-searchbar placeholder="Which City?">
+    <ion-searchbar color="primary" placeholder="Which City?">
 
     </ion-searchbar>
     <ion-buttons end>
-        <button ion-button icon-only>
-                        <ion-icon name="mic"></ion-icon>
-                    </button>
+
+        <ion-icon name="mic"></ion-icon>
+
     </ion-buttons>
+
+    <div class="first" padding text-uppercase margin>
+        recent searches
+    </div>
+
+    <ion-card>
+        <ion-item>
+            <ion-avatar item-start>
+                <ion-icon ios="ios-pin" md="md-pin"></ion-icon>
+            </ion-avatar>
+            <h2>Toronto</h2>
+            <p>QC, Canada</p>
+        </ion-item>
+        <ion-item>
+            <ion-avatar item-start>
+                <ion-icon ios="ios-pin" md="md-pin"></ion-icon>
+            </ion-avatar>
+            <h2>Toronto</h2>
+            <p>QC, Canada</p>
+        </ion-item>
+    </ion-card>
 </ion-content>
