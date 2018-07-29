@@ -45,7 +45,7 @@
     box-shadow: #f2475d;
 }
 
-ion-icon {
+.ion-icon-mic {
     display: inline-block;
     font-size: 1.4em;
     margin-top: 20px;
@@ -53,8 +53,57 @@ ion-icon {
     color: white;
 }
 
+.ion-icon-pin {
+    display: inline-block;
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #c8c7cc;
+}
+
+.ion-icon-star {
+    display: inline-block;
+    font-size: 1.2em;
+    color: yellow;
+    margin-top: -0.3rem;
+}
+
+.card-md {
+    margin: 10px;
+    border-radius: 10px;
+    width: calc(100% - 20px);
+    font-size: 1.4rem;
+    background: #fff;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.item-md h2 {
+    margin: 2px 0;
+    font-size: 1.6rem;
+    font-weight: BOLD;
+}
+
+.item-md.item-block .item-inner {
+    padding-right: 8px;
+    border-bottom: 2px solid #dedede;
+}
+
+.card-md .item-md.item-block .item-inner {
+    padding-right: 8px;
+    border-bottom: 2px solid #dedede;
+}
+
+ion-card img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
 .first {
     color: #8e8e93;
     font-weight: 500;
-    font-size: 1.3em;
+    padding-bottom: 0px;
+    padding-top: 8px;
+    padding-left: 8px;
 }

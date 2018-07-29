@@ -13,28 +13,46 @@
     </ion-searchbar>
     <ion-buttons end>
 
-        <ion-icon name="mic"></ion-icon>
+        <ion-icon class="ion-icon-mic" name="mic"></ion-icon>
 
     </ion-buttons>
 
-    <div class="first" padding text-uppercase margin>
+    <div class="first" text-uppercase margin>
         recent searches
     </div>
 
     <ion-card>
         <ion-item>
             <ion-avatar item-start>
-                <ion-icon ios="ios-pin" md="md-pin"></ion-icon>
+                <ion-icon class="ion-icon-pin" ios="ios-pin" md="md-pin"></ion-icon>
             </ion-avatar>
             <h2>Toronto</h2>
             <p>QC, Canada</p>
         </ion-item>
         <ion-item>
             <ion-avatar item-start>
-                <ion-icon ios="ios-pin" md="md-pin"></ion-icon>
+                <ion-icon class="ion-icon-pin" ios="ios-pin" md="md-pin"></ion-icon>
             </ion-avatar>
-            <h2>Toronto</h2>
-            <p>QC, Canada</p>
+            <h2>Los Angeles</h2>
+            <p>CA, United States</p>
+        </ion-item>
+    </ion-card>
+
+    <div class="first" text-uppercase margin>
+        trending near you
+    </div>
+
+    <ion-card>
+
+        <ion-card-content>
+            <img src="https://www.def-shop.com/magazin/wp-content/uploads/2017/04/Festival-Look_Coachella-Festival.jpg" />
+
+        </ion-card-content>
+        <ion-item>
+            <h2 clear item-start>Coachella Valley</h2>
+            <h2 clear item-end>
+                <ion-icon class="ion-icon-star icon-end" ios="ios-star" md="md-star"></ion-icon>
+            </h2>
         </ion-item>
     </ion-card>
 </ion-content>
