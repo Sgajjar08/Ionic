@@ -5,7 +5,7 @@
 
 .searchbar-input-container {
     position: relative;
-    margin-right: 16px;
+    margin-right: 24px;
     display: block;
     -webkit-flex-shrink: 1;
     -ms-flex-negative: 1;
@@ -61,11 +61,33 @@
     color: #c8c7cc;
 }
 
+.review-point {
+    margin: 0 0 2px;
+    overflow: inherit;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: normal;
+    text-overflow: inherit;
+    color: #f4c87d;
+}
+
 .ion-icon-star {
     display: inline-block;
     font-size: 1.2em;
-    color: yellow;
+    color: #f4c87d;
     margin-top: -0.3rem;
+}
+
+.ion-icon-easel {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #28cfb0;
+}
+
+.ion-icon-locate {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #28cfb0;
 }
 
 .card-md {
@@ -84,14 +106,45 @@
     font-weight: BOLD;
 }
 
-.item-md.item-block .item-inner {
-    padding-right: 8px;
+.search-city {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-orient: inherit;
+    -webkit-box-direction: inherit;
+    -webkit-flex-direction: inherit;
+    -ms-flex-direction: inherit;
+    flex-direction: inherit;
+    -webkit-box-align: inherit;
+    -webkit-align-items: inherit;
+    -ms-flex-align: inherit;
+    align-items: inherit;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    min-height: inherit;
+    /* border: 0; */
     border-bottom: 2px solid #dedede;
+    margin-left: 70px;
 }
 
-.card-md .item-md.item-block .item-inner {
-    padding-right: 8px;
-    border-bottom: 2px solid #dedede;
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: -10px;
 }
 
 ion-card img {
@@ -106,4 +159,16 @@ ion-card img {
     padding-bottom: 0px;
     padding-top: 8px;
     padding-left: 8px;
+}
+
+.review {
+    color: #f4c87d;
+    font-size: 1em;
+    margin-top: -0.9rem;
+}
+
+.venue {
+    color: #28cfb0;
+    font-size: 1em;
+    margin-top: -1rem;
 }
