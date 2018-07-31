@@ -7,154 +7,87 @@
 </ion-header>
 
 <ion-content padding>
+    <ion-scroll scrollX="true">
+        <ion-searchbar color="primary" placeholder="Which City?">
 
-    <ion-searchbar color="primary" placeholder="Which City?">
+        </ion-searchbar>
+        <ion-buttons end>
 
-    </ion-searchbar>
-    <ion-buttons end>
+            <ion-icon class="ion-icon-mic" name="mic"></ion-icon>
 
-        <ion-icon class="ion-icon-mic" name="mic"></ion-icon>
+        </ion-buttons>
 
-    </ion-buttons>
-
-    <div class="first" text-uppercase margin>
-        recent searches
-    </div>
-
-    <ion-card>
-        <ion-item>
-            <ion-avatar item-start>
-                <ion-icon class="ion-icon-pin" ios="ios-pin" md="md-pin"></ion-icon>
-            </ion-avatar>
-
-            <h2>Toronto</h2>
-            <p>QC, Canada</p>
-
-        </ion-item>
-        <div class="search-city">
+        <div class="first" text-uppercase margin>
+            recent searches
         </div>
-        <ion-item>
-            <ion-avatar item-start>
-                <ion-icon class="ion-icon-pin" ios="ios-pin" md="md-pin"></ion-icon>
-            </ion-avatar>
 
-            <h2>Los Angeles</h2>
-            <p>CA, United States</p>
-        </ion-item>
-    </ion-card>
+        <ion-card>
+            <ion-item>
+                <ion-avatar item-start>
+                    <ion-icon class="ion-icon-pin" ios="ios-pin" md="md-pin"></ion-icon>
+                </ion-avatar>
 
-    <div class="first" text-uppercase margin>
-        trending near you
-    </div>
+                <h2>Toronto</h2>
+                <p>QC, Canada</p>
 
-    <ion-row>
-        <ion-col>
-            <ion-card>
+            </ion-item>
+            <div class="search-city">
+            </div>
+            <ion-item>
+                <ion-avatar item-start>
+                    <ion-icon class="ion-icon-pin" ios="ios-pin" md="md-pin"></ion-icon>
+                </ion-avatar>
 
-                <ion-card-content>
-                    <img src="https://www.def-shop.com/magazin/wp-content/uploads/2017/04/Festival-Look_Coachella-Festival.jpg" />
+                <h2>Los Angeles</h2>
+                <p>CA, United States</p>
+            </ion-item>
+        </ion-card>
 
-                </ion-card-content>
-                <ion-item>
-                    <h2 clear item-start>Coachella Valley</h2>
-                    <div clear item-end>
-                        <div class="review row">
-                            <ion-col>
-                                <div class="review-point">4.5
-                                </div>
-                            </ion-col>
-                            <ion-col>
-                                <ion-icon class="ion-icon-star icon-end" ios="ios-star" md="md-star"></ion-icon>
-                            </ion-col>
+        <div class="first" text-uppercase margin>
+            trending near you
+        </div>
+
+
+        <ion-row>
+
+            <ion-col>
+                <div class="activity-card">
+
+                    <div class="activity-card-content">
+                        <img src="https://www.def-shop.com/magazin/wp-content/uploads/2017/04/Festival-Look_Coachella-Festival.jpg" />
+
+                    </div>
+                    <div class="activity activity-md activity-block">
+                        <h5 clear item-start>Coachella Valley</h5>
+                        <div clear item-end>
+                            <div class="review row">
+                                <ion-col>
+                                    <div class="review-point">4.5
+                                    </div>
+                                </ion-col>
+                                <ion-col>
+                                    <ion-icon class="ion-icon-star icon-end" ios="ios-star" md="md-star"></ion-icon>
+                                </ion-col>
+                            </div>
                         </div>
                     </div>
-                </ion-item>
-                <ion-item>
-                    <h3 clear item-start>Live Music Venue</h3>
-                    <div clear item-end>
-                        <div class="venue row">
-                            <ion-col>
-                                <ion-icon class="ion-icon-easel icon-end" ios="ios-easel" md="md-easel"></ion-icon>
-                            </ion-col>
-                            <ion-col>
-                                <ion-icon class="ion-icon-locate icon-end" ios="ios-locate" md="md-locate"></ion-icon>
-                            </ion-col>
+                    <div class="activity activity-md activity-block">
+                        <h3 clear item-start>Live Music Venue</h3>
+                        <div clear item-end>
+                            <div class="venue row">
+                                <ion-col>
+                                    <ion-icon class="ion-icon-easel icon-end" ios="ios-easel" md="md-easel"></ion-icon>
+                                </ion-col>
+                                <ion-col>
+                                    <ion-icon class="ion-icon-locate icon-end" ios="ios-locate" md="md-locate"></ion-icon>
+                                </ion-col>
+                            </div>
                         </div>
                     </div>
-                </ion-item>
-            </ion-card>
-        </ion-col>
-        <ion-col>
-            <ion-card>
+                </div>
+            </ion-col>
 
-                <ion-card-content>
-                    <img src="https://www.def-shop.com/magazin/wp-content/uploads/2017/04/Festival-Look_Coachella-Festival.jpg" />
 
-                </ion-card-content>
-                <ion-item>
-                    <h2 clear item-start>Coachella Valley</h2>
-                    <div clear item-end>
-                        <div class="review row">
-                            <ion-col>
-                                <div class="review-point">4.5
-                                </div>
-                            </ion-col>
-                            <ion-col>
-                                <ion-icon class="ion-icon-star icon-end" ios="ios-star" md="md-star"></ion-icon>
-                            </ion-col>
-                        </div>
-                    </div>
-                </ion-item>
-                <ion-item>
-                    <h3 clear item-start>Live Music Venue</h3>
-                    <div clear item-end>
-                        <div class="venue row">
-                            <ion-col>
-                                <ion-icon class="ion-icon-easel icon-end" ios="ios-easel" md="md-easel"></ion-icon>
-                            </ion-col>
-                            <ion-col>
-                                <ion-icon class="ion-icon-locate icon-end" ios="ios-locate" md="md-locate"></ion-icon>
-                            </ion-col>
-                        </div>
-                    </div>
-                </ion-item>
-            </ion-card>
-        </ion-col>
-        <ion-col>
-            <ion-card>
-
-                <ion-card-content>
-                    <img src="https://www.def-shop.com/magazin/wp-content/uploads/2017/04/Festival-Look_Coachella-Festival.jpg" />
-
-                </ion-card-content>
-                <ion-item>
-                    <h2 clear item-start>Coachella Valley</h2>
-                    <div clear item-end>
-                        <div class="review row">
-                            <ion-col>
-                                <div class="review-point">4.5
-                                </div>
-                            </ion-col>
-                            <ion-col>
-                                <ion-icon class="ion-icon-star icon-end" ios="ios-star" md="md-star"></ion-icon>
-                            </ion-col>
-                        </div>
-                    </div>
-                </ion-item>
-                <ion-item>
-                    <h3 clear item-start>Live Music Venue</h3>
-                    <div clear item-end>
-                        <div class="venue row">
-                            <ion-col>
-                                <ion-icon class="ion-icon-easel icon-end" ios="ios-easel" md="md-easel"></ion-icon>
-                            </ion-col>
-                            <ion-col>
-                                <ion-icon class="ion-icon-locate icon-end" ios="ios-locate" md="md-locate"></ion-icon>
-                            </ion-col>
-                        </div>
-                    </div>
-                </ion-item>
-            </ion-card>
-        </ion-col>
-    </ion-row>
+        </ion-row>
+    </ion-scroll>
 </ion-content>
