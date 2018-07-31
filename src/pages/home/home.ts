@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import * as $ from "jquery";
+import 'slick-carousel/slick/slick';
 
 @Component({
   selector: 'page-home',
@@ -11,4 +13,13 @@ export class HomePage {
 
   }
 
+  ngOnInit() {
+    $('.myCarousel').slick({
+      dots: true,
+      centerMode: true,
+      infinite: false,
+      centerPadding: '60px',
+      slidesToShow: 1
+    });
+}
 }

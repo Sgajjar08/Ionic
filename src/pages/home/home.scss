@@ -1,3 +1,15 @@
+page-home {
+    .slick-slide {
+        opacity: 0.6;
+    }
+    .slick-current {
+        opacity: 1 !important;
+    }
+    .slick-dots li button:before {
+        font-size: 50px !important;
+    }
+}
+
 h5 {
     margin-top: 1.8rem;
     font-size: 1.6rem;
@@ -207,7 +219,6 @@ ion-card img {
 }
 
 .activity-card {
-    margin: 10px;
     border-radius: 5px;
     width: calc(100% - 20px);
     font-size: 1.4rem;
@@ -217,16 +228,25 @@ ion-card img {
 }
 
 .activity-card img {
+    width: 100vw;
+    height: auto;
     display: block;
-    width: 100%;
-    border-radius: 5px;
-    height: 250px;
+    margin: auto;
+    border-radius: 10px;
 }
 
 .activity-card-content {
     padding: 10px;
     font-size: 1.4rem;
     line-height: 1.5;
+}
+
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+    margin: 10px;
 }
 
 .activity {
