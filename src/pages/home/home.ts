@@ -15,11 +15,12 @@ export class HomePage {
 
   ngOnInit() {
     $('.myCarousel').slick({
-      dots: true,
+      dots: false,
       centerMode: true,
-      infinite: false,
-      centerPadding: '60px',
-      slidesToShow: 1
+      infinite: true,
+      centerPadding: "50px",
+      slidesToShow: 1,
+      initialSlide: 1
     });
 }
 }
